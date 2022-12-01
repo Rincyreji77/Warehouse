@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Warehouse</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">
+            <img
+              src="https://www.clipartmax.com/png/middle/200-2001108_warehouse-management-system-warehouse-management-system.png"
+              height="40"
+              width="60"
+              alt="MDB Logo"
+              loading="lazy"
+            /> Warehouse Management System</a>  
+        <!-- Icons -->
+        <ul class="navbar-nav d-flex flex-row me-1">
+            <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link text-white" href="/"><i class="fas fa-envelope mx-1"></i> HOME</a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link text-white" href="/about"><i class="fas fa-cog mx-1"></i> ABOUT</a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link text-white" href="/contact"><i class="fas fa-cog mx-1"></i> CONTACT</a>
+          </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    LOGIN
+                  </a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li>
+                        <a class="dropdown-item" href="admin_login">ADMIN</a>
+                    </li>
+  
+                    <li>
+                        <a class="dropdown-item" href="user_login">USER</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  
+  </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                    <img src="https://www.logupdateafrica.com/h-upload/2022/03/15/1500x900_23650-e-commerce-logistics-grew-by-199-in-2021-transport-intelligence.jpg" width="1500" height="700">
+          </div>
+        </div>
+        </div>
+
+      {% block content %} {% endblock %}
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
